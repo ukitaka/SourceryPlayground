@@ -1,0 +1,29 @@
+PODS:
+  - APIKit (3.1.1):
+    - Result (~> 3.0)
+  - Realm (2.4.0):
+    - Realm/Headers (= 2.4.0)
+  - Realm/Headers (2.4.0)
+  - RealmSwift (2.4.0):
+    - Realm (= 2.4.0)
+  - Result (3.1.0)
+  - Sourcery (0.5.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - APIKit
+  - RealmSwift
+  - Sourcery
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
+  Realm: ee18a466779d058e525e79b3db76a20541f82eb6
+  RealmSwift: 9f77d226585c5d0c6fe02cb432b8230ad826f9cc
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
+  Sourcery: 8ffee6e95aad86be3f446478f914452211bb7edf
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 62895d10f99953156791fe4e963fba4c2c6d7f9f
+
+COCOAPODS: 1.1.1
