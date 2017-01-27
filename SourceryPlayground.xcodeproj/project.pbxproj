@@ -96,6 +96,7 @@
 			buildConfigurationList = E8D25A991E3B7E9800D5CF56 /* Build configuration list for PBXNativeTarget "SourceryPlayground" */;
 			buildPhases = (
 				564834975D62084D7B169CF6 /* [CP] Check Pods Manifest.lock */,
+				E8D25A9C1E3B837400D5CF56 /* Sourcery */,
 				E8D25A831E3B7E9800D5CF56 /* Sources */,
 				E8D25A841E3B7E9800D5CF56 /* Frameworks */,
 				E8D25A851E3B7E9800D5CF56 /* Resources */,
@@ -204,6 +205,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SourceryPlayground/Pods-SourceryPlayground-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		E8D25A9C1E3B837400D5CF56 /* Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Sourcery;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Sourcery/bin/sourcery\" \"${SRCROOT}/SourceryPlayground\" \"${SRCROOT}/Templates\" \"${SRCROOT}/CodeGenerated\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -377,6 +392,7 @@
 				E8D25A9B1E3B7E9800D5CF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
